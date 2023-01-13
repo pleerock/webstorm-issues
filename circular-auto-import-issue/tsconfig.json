@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": "src",
+    "outDir": "_",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "nodenext"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "webstorm-issues",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "_/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "prettier": "^2.8.2",
+    "@types/node": "^18.11.18",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.9.4"
+  },
+  "scripts": {
+    "start": "node -r source-map-support/register ./_/index.js",
+    "watch": "tsc -w"
+  }
+}
